@@ -16,15 +16,13 @@ theme:
     - search.share
     - content.code.copy
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: white
       accent: red
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: black
       accent: red
       toggle:
