@@ -1,0 +1,66 @@
+site_name: RoboMaster 电控组培训
+site_description: RoboMaster 战队电控组培训资料——学习路线与资源导航
+site_url: https://xiaofxx.github.io/rm-ec-training/
+
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/robot-industrial
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 入门认知:
+      - 比赛与电控组简介: about.md
+      - 如何寻找资源: resources.md
+  - 编程基础:
+      - C 语言学习: c-lang.md
+      - 数据结构与算法: dsa.md
+      - Git 与工程化: git.md
+  - 嵌入式开发:
+      - STM32 开发基础: stm32.md
+      - 通信协议: comm.md
+      - 常用模块: modules.md
+      - RTOS: rtos.md
+      - 电机控制: motor.md
+      - 调试方法: debugging.md
+  - 综合实战:
+      - 综合项目（电赛/校内赛小车）: project.md
+
+copyright: Copyright &copy; 2026 RoboMaster 电控组
