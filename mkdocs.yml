@@ -8,6 +8,8 @@ theme:
   icon:
     logo: material/robot-industrial
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - search.highlight
@@ -16,18 +18,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: white
+      accent: red
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
