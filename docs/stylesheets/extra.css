@@ -1,7 +1,6 @@
 /* 浅色模式下的纸感底色：让页面不是纯白，而是微暖的纸色 */
 [data-md-color-scheme="default"] {
   --md-default-bg-color: #faf9f6;
-  --md-primary-bg-color: #faf9f6;
 }
 
 /* 页头加一条极细的分隔线，避免白底与正文糊在一起 */
