@@ -1,4 +1,4 @@
-# RoboMaster 电控组培训教程
+# 苍穹战队Robomaster电控组培训教程
 
 基于 MkDocs Material 的教程站，内容定位是**学习路线 + 资料导航**（不写知识点讲解，只给推荐教程、资料链接和学习建议）。
 
@@ -22,6 +22,7 @@ docs/
 ├── index.md      欢迎页（培训目标、如何使用本教程）
 ├── about.md      比赛与电控组简介
 ├── resources.md  如何寻找资源
+├── env-setup.md  如何配置软件环境
 ├── c-lang.md     C 语言学习
 ├── dsa.md        数据结构与算法
 ├── git.md        Git 与工程化

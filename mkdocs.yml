@@ -1,4 +1,4 @@
-site_name: RoboMaster 电控组培训
+site_name: 苍穹战队Robomaster电控组培训
 site_description: RoboMaster 战队电控组培训资料——学习路线与资源导航
 site_url: https://xiaofxx.github.io/rm-ec-training/
 
@@ -50,6 +50,7 @@ nav:
   - 入门认知:
       - 比赛与电控组简介: about.md
       - 如何寻找资源: resources.md
+      - 如何配置软件环境: env-setup.md
   - 编程基础:
       - C 语言学习: c-lang.md
       - 数据结构与算法: dsa.md
@@ -64,4 +65,4 @@ nav:
   - 综合实战:
       - 综合项目（电赛/校内赛小车）: project.md
 
-copyright: Copyright &copy; 2026 RoboMaster 电控组
+copyright: Copyright &copy; 2026 苍穹战队电控组
