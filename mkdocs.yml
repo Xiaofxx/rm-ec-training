@@ -8,9 +8,6 @@ theme:
   icon:
     logo: material/robot-industrial
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
     - navigation.top
     - search.highlight
     - search.share
