@@ -11,7 +11,7 @@ C 语言是电控组的根基：STM32 固件、电机控制、操作系统内核
 
 - **[Visual Studio Code](https://code.visualstudio.com/)（简称VScode）— 前期学习推荐**。轻量免费，装 C/C++ 插件 即可运行。PS：注意区分VS Code 和 Visual Studio，VScode更轻量更易于扩展，Visual Studio集成开发环境更"重"目前暂不推荐
 
-  <img src="C:\Users\xiaofangxing\AppData\Roaming\Typora\typora-user-images\image-20260831140244039.png" alt="image-20260831140244039" style="float:left;zoom: 67%;" />
+  <img src="assets/image-20260831150748005.png" alt="image-20260831150748005" style="float:left;zoom:67%;" />
 
 - [CLion](https://www.jetbrains.com/clion/) — 后期涉及 CMake 组织的复杂工程时再换，学生认证可免费使用。
 
@@ -32,7 +32,7 @@ C 语言是电控组的根基：STM32 固件、电机控制、操作系统内核
 
 上述仅示例，具体看个人喜好
 
-<img src="assets/image-20260831141638131.png" alt="image-20260831141638131" style="float:left;zoom:33%;" />
+<img src="assets/image-20260831150825979.png" alt="image-20260831150825979" style="float:left;zoom: 33%;" />
 
 ### 网页教程
 
@@ -42,7 +42,7 @@ C 语言是电控组的根基：STM32 固件、电机控制、操作系统内核
 
 - **《C 程序设计语言》**（K&R）— C 语言设计者撰写，篇幅小、质量极高，建议作为入门书籍。
 
-<img src="https://ts2.tc.mm.bing.net/th/id/OIP-C.U5O7Q_jEH7p44UqEY0-FPAHaKW?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="C程序设计语言（2004年机械工业出版社出版的图书）_百度百科" style="float:left;zoom: 33%;" />
+<img src="assets/OIP-C.webp" alt="OIP-C" style="float:left;zoom:33%;" />
 
 - 《C 和指针》— 指针与内存专题的经典黑皮书，把最难啃的部分单独讲透，后期学习推荐目前不必深入。
 
