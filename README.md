@@ -20,6 +20,7 @@ python -m venv .venv
 ```
 docs/
 ├── index.md      欢迎页（培训目标、如何使用本教程）
+├── guide.md      教程食用指南（学习路线）
 ├── about.md      比赛与电控组简介
 ├── resources.md  如何寻找资源
 ├── env-setup.md  如何配置软件环境

@@ -47,14 +47,15 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
+  - 教程食用指南: guide.md
   - 入门认知:
       - 比赛与电控组简介: about.md
       - 如何寻找资源: resources.md
       - 如何配置软件环境: env-setup.md
   - 编程基础:
       - C 语言学习: c-lang.md
-      - 数据结构与算法: dsa.md
       - Git 与工程化: git.md
+      - 数据结构与算法: dsa.md
   - 嵌入式开发:
       - 单片机开发:
           - STM32 开发基础: stm32.md
