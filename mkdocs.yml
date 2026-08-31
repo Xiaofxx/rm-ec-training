@@ -40,6 +40,7 @@ markdown_extensions:
       permalink: true
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
