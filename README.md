@@ -54,18 +54,18 @@ docs/
 2. 仓库 Settings → Pages → Source 选 **GitHub Actions**
 3. 之后每次 `git push` 到 main 分支，`.github/workflows/deploy.yml` 会自动构建并发布
 
-## 镜像部署（腾讯 EdgeOne Pages，国内直连快）
+## 镜像部署（Cloudflare Pages）
 
 主站：`https://xiaofxx.github.io/rm-ec-training/`（GitHub Pages）
-镜像：`https://<项目名>.edgeone.app`（创建项目后在控制台查看，回填到这里）
+镜像：`https://rm-ec-training.pages.dev/`（Cloudflare Pages，国内直连可访问）
 
-EdgeOne Pages 已绑定本仓库自动构建，push 后与 GitHub Pages 同步更新。控制台中的构建配置：
+Cloudflare Pages 已绑定本仓库自动构建，push 后与 GitHub Pages 同步更新。构建配置：
 
-- 构建命令：`pip3 install -r requirements.txt && mkdocs build`
+- 框架预设：None
+- 构建命令：`pip install -r requirements.txt && mkdocs build`
 - 输出目录：`site`
-- 框架预设：自定义/无
 
-> 若需绑定自定义域名，域名需已完成 ICP 备案；使用默认分配的 `*.edgeone.app` 域名无需备案。
+> 备注：曾尝试腾讯 EdgeOne Pages 作为镜像，因其默认域名未备案在国内被 401 拦截、且构建环境的 Python 不可用而放弃，项目已删除。
 
 ## 搜索说明
 
