@@ -57,6 +57,7 @@ nav:
       - Git 与工程化: git.md
       - 数据结构与算法: dsa.md
   - 嵌入式开发:
+      - 开发方式: dev-workflow.md
       - 单片机开发:
           - STM32 开发基础: stm32.md
           - 通信协议: comm.md

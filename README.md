@@ -27,6 +27,7 @@ docs/
 ├── c-lang.md     C 语言学习
 ├── dsa.md        数据结构与算法
 ├── git.md        Git 与工程化
+├── dev-workflow.md 开发方式
 ├── stm32.md      STM32 开发基础
 ├── comm.md       通信协议
 ├── modules.md    常用模块
