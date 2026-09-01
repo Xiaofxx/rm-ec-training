@@ -1,0 +1,12 @@
+# Python 虚拟环境
+.venv/
+
+# MkDocs 构建产物
+site/
+
+# ZCode 会话文件
+.zcode/
+
+# 系统文件
+Thumbs.db
+.DS_Store
