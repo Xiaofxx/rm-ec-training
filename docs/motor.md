@@ -6,9 +6,13 @@
 
 -  PWM 调速 + 方向控制的入门方案，配编码器可做测速闭环，是练习 PID 的最佳起点。
 
-## PID 控制
+## PID 控制技术
 
-PID是最基本的控制
+PID是最基本的控制方法，几乎所有的自动化设备都使用pid控制算法作为基础控制方法，**PID是接触电机控制必须学明白的算法**，RM的赛车中有大量的pid应用，所以pid调参是一个电控的基本功。
+
+[史上最详细的PID教程——理解PID原理及优化算法_串级pid为什么可以减小稳定时间-CSDN博客](https://blog.csdn.net/name_longming/article/details/115093338)
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=657982678&bvid=BV1Uh4y1f7cL&cid=1183709606&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 无刷直流电机（RoboMaster 体系）
 

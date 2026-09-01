@@ -13,7 +13,11 @@ C 语言是电控组的根基：STM32 固件、电机控制、操作系统内核
 
 ![image-20260831150748005](assets/image-20260831150748005.png){: style="zoom:67%" }
 
-- [dev c++](https://www.dev-cpp.com/) **C语言学习阶段推荐。**Dev C++ 是一款 Windows 下的轻量级 C/C++ 集成开发环境（IDE），完全免费，装完就能直接写 main 函数并按 F9 编译运行，尤其适合学习 C/C++ 的新手小白。
+- [**dev c++**](https://www.dev-cpp.com/) **C语言初学阶段推荐，下载即用，不用配环境。**
+
+  [(31 封私信) 【2026最新】Dev C++下载安装保姆级教程（附安装包+图文步骤） - 知乎](https://zhuanlan.zhihu.com/p/1990875531034514231)
+
+  Dev C++ 是一款 Windows 下的轻量级 C/C++ 集成开发环境（IDE），完全免费，装完就能直接写 main 函数并按 F9 编译运行，尤其适合学习 C/C++ 的新手小白。
 
   Visual Studio 体积大、功能全但安装耗时；
 
