@@ -64,13 +64,11 @@ nav:
           - 常用模块: modules.md
           - RTOS: rtos.md
           - 电机控制: motor.md
-      - 调试方法:
-          - 调试方法总览: debugging.md
-          - 硬件调试: debug-hardware.md
-          - 软件调试:
-              - Ozone 调试方法: debug-ozone.md
-              - Keil 调试: debug-keil.md
-              - 其他调试工具: debug-tools.md
+      - 硬件调试: debug-hardware.md
+      - 软件调试:
+          - Ozone 调试方法: debug-ozone.md
+          - Keil 调试: debug-keil.md
+          - 其他调试工具: debug-tools.md
   - 综合实战:
       - 综合项目（电赛/校内赛小车）: project.md
 
