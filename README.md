@@ -33,7 +33,11 @@ docs/
 ├── modules.md    常用模块
 ├── rtos.md       RTOS
 ├── motor.md      电机控制
-├── debugging.md  调试方法
+├── debugging.md  调试方法总览
+├── debug-hardware.md 硬件调试
+├── debug-ozone.md    Ozone 调试方法（软件调试）
+├── debug-keil.md     Keil 调试（软件调试）
+├── debug-tools.md    其他调试工具（软件调试）
 └── project.md    综合项目
 ```
 
