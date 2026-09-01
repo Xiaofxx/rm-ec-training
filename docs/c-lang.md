@@ -9,15 +9,27 @@ C 语言是电控组的根基：STM32 固件、电机控制、操作系统内核
 
 ## 环境配置
 
-- **[Visual Studio Code](https://code.visualstudio.com/)（简称VScode）— 前期学习推荐**。轻量免费，装 C/C++ 插件 即可运行。PS：注意区分VS Code 和 Visual Studio，VScode更轻量更易于扩展，Visual Studio集成开发环境更"重"目前暂不推荐
+- **[Visual Studio Code](https://code.visualstudio.com/)（简称VScode）— 前期学习推荐**。轻量免费，装 C/C++ 插件 即可运行,后期还可以通过安装插件增加STM32等单片机开发能力。PS：注意区分VS Code 和 Visual Studio，VScode更轻量更易于扩展，Visual Studio集成开发环境更"重"目前暂不推荐
 
-  ![image-20260831150748005](assets/image-20260831150748005.png){: style="zoom:67%" }
+![image-20260831150748005](assets/image-20260831150748005.png){: style="zoom:67%" }
 
-  
+- [dev c++](https://www.dev-cpp.com/) **C语言学习阶段推荐。**Dev C++ 是一款 Windows 下的轻量级 C/C++ 集成开发环境（IDE），完全免费，装完就能直接写 main 函数并按 F9 编译运行，尤其适合学习 C/C++ 的新手小白。
+
+  Visual Studio 体积大、功能全但安装耗时；
+
+  CLion 商用收费且依赖 JetBrains 全家桶；
+
+  Code::Blocks 插件多却配置分散；
+
+​	相比之下，Dev C++ 的优势是“一键即用”，安装包 40 MB 左右，启动快，自带编译器，中文错误提	示，U 盘拷走就能在机房或网吧继续写代码，对教学、竞赛、算法训练场景极其友好，低配笔记本也	能流畅运行。
+
+![image-20260901231812336](assets\dev-cpp.png)
 
 - [CLion](https://www.jetbrains.com/clion/) — 后期涉及 CMake 组织的复杂工程时再换，学生认证可免费使用。
 
-**环境配置的教程请在B站搜索**，跟着教程在Vscode上敲出你的第一个C语言程序吧
+  ![image-20260901233118840](assets\image-20260901233118840.png){: style="zoom:33%" }
+
+**环境配置的教程请在B站搜索**，跟着教程在Vscode或dev c++上敲出你的第一个C语言程序吧
 
 > 有疑难杂症或者不懂得可以在培训群里面交流
 

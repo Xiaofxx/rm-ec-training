@@ -4,7 +4,7 @@
 
 ## 视频平台
 
-- [Bilibili](https://www.bilibili.com) — 电控学习的主流视频来源。搜索时认准高播放量、系列完整的 UP 主（江协科技、野火、正点原子等），避免零散片段。
+- [Bilibili](https://www.bilibili.com) — 电控学习的主流视频来源。搜索时认准高播放量、系列完整的 UP 主（[keysking--单片机学习优质博主](https://space.bilibili.com/6100925)、[江协科技--单片机标准库教学](https://space.bilibili.com/383400717)、[野火--单片机教学](https://space.bilibili.com/356820657)、[正点原子](https://space.bilibili.com/394620890)、[TrojanGeneric--RM硬件相关教学中科大麻神](https://space.bilibili.com/337732684)等），避免零散片段。
 
 ## 图文社区
 

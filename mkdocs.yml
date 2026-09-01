@@ -9,6 +9,7 @@ theme:
     logo: material/robot-industrial
   features:
     - navigation.top
+    - navigation.footer
     - search.highlight
     - search.share
     - content.code.copy
