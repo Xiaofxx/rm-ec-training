@@ -48,7 +48,6 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 教程食用指南: guide.md
   - 入门认知:
       - 比赛与电控组简介: about.md
       - 如何寻找资源: resources.md
