@@ -11,11 +11,7 @@ Keil 自带的在线调试是入门最省事的方案：断点、单步、观察
 ## 学习资料
 
 - [B 站搜索：Keil 调试教程](https://search.bilibili.com/all?keyword=Keil+调试+教程) — 跟一个完整走一遍断点/单步/Watch 的视频即可
-- [【中科大RM电控合集】手把手Keil+STM32CubeMX+VsCode环境配置](https://www.bilibili.com/video/BV1bU4y1D7nJ?vd_source=0ec807ca37217dda15dcd3c1863ba0c9) — 环境配置里含调试部分
 
 !!! note
     调试实时性代码（如电机闭环，使用 RTOS）时断点会破坏时序，此时优先用串口打印 / 波形等手段，见[其他调试工具](debug-tools.md)。
 
-## 待补充
-
-- [ ] 队内常用的 Keil 调试技巧汇总
