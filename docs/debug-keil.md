@@ -15,3 +15,4 @@ Keil 自带的在线调试是入门最省事的方案：断点、单步、观察
 !!! note
     调试实时性代码（如电机闭环，使用 RTOS）时断点会破坏时序，此时优先用串口打印 / 波形等手段，见[其他调试工具](debug-tools.md)。
 
+[Keil5软件使用-进阶调试篇_keil5调试教程-CSDN博客](https://blog.csdn.net/yli001/article/details/130505875)
