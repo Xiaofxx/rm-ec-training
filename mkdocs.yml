@@ -15,14 +15,14 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: white
-      accent: red
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
     - scheme: slate
-      primary: black
-      accent: red
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
