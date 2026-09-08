@@ -8,15 +8,15 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
 1. 打开 [Git 官网](https://git-scm.com/)，点击页面中的 **Download for Windows**。
 
-   ![Git 官网的 Windows 下载入口](assets/git/01-git-homepage.png)
+    ![Git 官网的 Windows 下载入口](assets/git/01-git-homepage.png)
 
 2. 在下载页面选择适合电脑的安装包。绝大多数使用 Intel 或 AMD 处理器的电脑选择 **Git for Windows/x64 Setup**；只有 Windows on ARM 设备才选择 ARM64 版本。
 
-   ![选择 Git for Windows x64 安装包](assets/git/02-windows-downloads.png)
+    ![选择 Git for Windows x64 安装包](assets/git/02-windows-downloads.png)
 
 3. 等待安装程序下载完成。下载速度较慢时，可以切换网络后重试。
 
-   ![下载完成的 Git 安装程序](assets/git/03-installer-file.png)
+    ![下载完成的 Git 安装程序](assets/git/03-installer-file.png)
 
 ## 安装 Git
 
@@ -24,7 +24,7 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
 2. 选择安装路径。建议使用默认路径；如需修改，尽量避免中文、空格和特殊字符。确认后点击 **Next**。
 
-   ![选择 Git 安装路径](assets/git/04-install-path.png)
+    ![选择 Git 安装路径](assets/git/04-install-path.png)
 
 3. 后续选项保持默认并依次点击 **Next**，最后点击 **Install**。安装完成后点击 **Finish**。
 
@@ -32,29 +32,29 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
 1. 在 Windows 搜索框中输入 `Git Bash`，打开 Git Bash。
 
-   ![在 Windows 中搜索 Git Bash](assets/git/05-search-git-bash.png)
+    ![在 Windows 中搜索 Git Bash](assets/git/05-search-git-bash.png)
 
 2. 输入以下命令检查 Git 是否安装成功：
 
-   ```bash
-   git --version
-   ```
+    ```bash
+    git --version
+    ```
 
-   如果终端输出类似 `git version 2.x.x.windows.x` 的版本信息，说明安装成功。
+    如果终端输出类似 `git version 2.x.x.windows.x` 的版本信息，说明安装成功。
 
 3. 配置提交代码时使用的姓名和邮箱。请将引号中的内容替换为自己的信息：
 
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "email@example.com"
-   ```
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "email@example.com"
+    ```
 
 4. 输入以下命令检查配置结果：
 
-   ```bash
-   git config --global --get user.name
-   git config --global --get user.email
-   ```
+    ```bash
+    git config --global --get user.name
+    git config --global --get user.email
+    ```
 
 > **说明：姓名与邮箱的作用**
 >
@@ -66,21 +66,21 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
 1. 新建一个用于保存工程的文件夹。进入该文件夹，在空白处右击，选择 **Open Git Bash here**。如果 Windows 11 的右键菜单中没有显示该选项，先点击 **显示更多选项**。
 
-   ![在工程目录中打开 Git Bash](assets/git/06-open-git-bash-here.png)
+    ![在工程目录中打开 Git Bash](assets/git/06-open-git-bash-here.png)
 
 2. 在代码托管网站上打开需要下载的仓库，点击 **代码** 或 **Clone**，选择 **HTTPS**，然后复制仓库网址。
 
-   ![复制仓库的 HTTPS 克隆网址](assets/git/07-copy-clone-url.png)
+    ![复制仓库的 HTTPS 克隆网址](assets/git/07-copy-clone-url.png)
 
 3. 回到 Git Bash，输入 `git clone`，后面粘贴刚才复制的网址。例如：
 
-   ```bash
-   git clone https://example.com/group/project.git
-   ```
+    ```bash
+    git clone https://example.com/group/project.git
+    ```
 
 4. 按下 Enter，等待下载完成。当终端出现 `done` 且不再显示报错时，可以在当前文件夹中看到新下载的工程目录。
 
-   ![使用 git clone 完成代码下载](assets/git/08-clone-complete.png)
+    ![使用 git clone 完成代码下载](assets/git/08-clone-complete.png)
 
 ### 常见问题
 
