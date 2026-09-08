@@ -52,6 +52,10 @@ nav:
       - 比赛与电控组简介: about.md
       - 如何寻找资源: resources.md
       - 如何配置软件环境: env-setup.md
+      - 开发环境配置:
+          - Dev-Cpp: install-devcpp.md 
+          - Keil: install-keil.md
+          - STM32Cubemx: install-cubemx.md 
   - 编程基础:
       - C 语言学习: c-lang.md
       - Git 与工程化: git.md
