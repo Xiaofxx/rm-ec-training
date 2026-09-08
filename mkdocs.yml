@@ -56,6 +56,7 @@ nav:
           - Dev-Cpp: install-devcpp.md 
           - Keil: install-keil.md
           - STM32Cubemx: install-cubemx.md 
+          - Git: install-git.md
   - 编程基础:
       - C 语言学习: c-lang.md
       - Git 与工程化: git.md
