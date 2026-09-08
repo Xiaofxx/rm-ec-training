@@ -71,5 +71,6 @@ nav:
           - 其他调试工具: debug-tools.md
   - 综合实战:
       - 综合项目（电赛/校内赛小车）: project.md
+      - 校内赛电控指导: school-contest.md
 
 copyright: Copyright &copy; 2026 苍穹战队电控组
