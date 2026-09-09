@@ -24,6 +24,15 @@
 2. [如何寻找资源](resources.md) — 学会自己找资料，这是受用最久的一课
 3. [如何配置软件环境](env-setup.md) — 装好工具，扫清第一道坎
 
+#### 环境配置快速导航
+
+- [Dev-C++ 安装与使用](install-devcpp.md) — 适合刚开始学习 C/C++，安装后即可编译运行程序
+- [Keil 5 安装](install-keil.md) — STM32 入门阶段使用的集成开发环境
+- [STM32CubeMX 安装](install-cubemx.md) — 用于配置 STM32 外设并生成初始化工程
+- [Git 安装与初始配置](install-git.md) — 用于管理代码版本、获取和同步工程
+- [J-Link 与 Ozone 安装](install-jlink-ozone.md) — 用于程序下载和调试（页面待完善）
+- [CLion 的 STM32 开发环境配置](install-clion.md) — 队内项目开发使用，建议熟悉 Keil 后再配置
+
 **第 1 步：C 语言**
 
 4. [C 语言学习](c-lang.md) — 一切的地基。学到指针与内存模型吃透即可，别追求面面俱到
