@@ -14,7 +14,7 @@
 
     ![确认更改目标文件夹](assets/cubemx/03.png)
 
-4. 点击 **更改**，选择合适的安装路径。建议安装到 C 盘以外的磁盘，例如 `D:\tools\java\jre1.8.0_191`。
+4. 点击 **更改**，选择合适的安装路径。建议安装到 C 盘以外的磁盘，例如 `D:\tools\java\jre1.8.0_191`。注意路径中不能含有中文。
 
     ![选择 Java 安装路径](assets/cubemx/04.png)
 
@@ -45,7 +45,7 @@
     ![确认隐私政策和使用条款](assets/cubemx/10.png)
 
 5. 点击 **Browse**，选择合适的安装路径。建议安装到 C 盘以外的磁盘，例如 `D:\tools\STMicroelectronics\STM32Cube\STM32CubeMX`。
-
+注意路径中不能含有中文。
     ![选择 STM32CubeMX 安装路径](assets/cubemx/11.png)
 
 6. 如果目标文件夹尚不存在，请在弹出的提示窗口中点击 **确定**，创建该文件夹。
