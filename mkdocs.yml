@@ -57,6 +57,8 @@ nav:
           - Keil: install-keil.md
           - STM32Cubemx: install-cubemx.md 
           - Git: install-git.md
+          - Jlink+Ozone: install-jlink-ozone.md
+          - CLion: install-clion.md
   - 编程基础:
       - C 语言学习: c-lang.md
       - Git 与工程化: git.md
