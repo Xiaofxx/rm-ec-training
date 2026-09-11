@@ -50,6 +50,7 @@ nav:
   - 首页: index.md
   - 入门认知:
       - 比赛与电控组简介: about.md
+      - 电脑基本常识: basic-guide.md
       - 如何寻找资源: resources.md
       - 如何配置软件环境:
           - 软件下载与安装基础: env-setup.md
