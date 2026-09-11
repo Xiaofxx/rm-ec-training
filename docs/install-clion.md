@@ -133,3 +133,31 @@
 9. 若界面显示 **构建已完成**，则说明 CLion 和工具链配置正确。
 
     ![项目构建成功](assets/clion/30.png)
+
+## 激活 CLion
+
+刚安装的 CLion 只有 30 天免费试用期，如果不进行激活，试用期结束后将无法继续使用。所幸，自 2025 年 5 月起，JetBrains 已面向个人免费开放 CLion 的非商业使用许可。只需注册并登录 JetBrains Account，即可完成激活。下面介绍具体的激活步骤。
+
+1. 打开 CLion，点击左上角的 **四横线** 图标展开主菜单。
+
+    ![打开 CLion 主菜单](assets/clion/31.png)
+
+2. 在菜单栏中依次选择 **帮助** > **注册**。
+
+    ![打开 CLion 注册界面](assets/clion/32.png)
+
+3. 在 **管理许可证** 窗口中，点击 **激活其他许可证**。
+
+    ![选择激活其他许可证](assets/clion/33.png)
+
+4. 选择 **免费非商业使用**，阅读并确认相关许可及数据收集说明，然后点击 **登录以进行非商业使用**。
+
+    ![选择免费非商业使用](assets/clion/34.png)
+
+5. 浏览器会自动打开 JetBrains Account 登录页面。已有账号时直接登录；没有账号时，先完成注册。按照页面提示完成授权后返回 CLion，即可启用非商业许可证。
+
+    ![登录或注册 JetBrains Account](assets/clion/35.png)
+
+## 关于烧录工具
+
+本教程采用 **CLion + J-Link + Ozone** 的开发方式：使用 CLion 编写和构建代码，使用 J-Link 与 Ozone 完成程序烧录和调试。J-Link 与 Ozone 的安装及配置方法将在 [安装 J-Link 和 Ozone](install-jlink-ozone.md) 中介绍，因此本文不再讲解如何通过 CLion 烧录程序。如有需要，可以自行查阅 OpenOCD 的相关资料，并在 CLion 中完成配置。
