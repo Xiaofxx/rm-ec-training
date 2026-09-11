@@ -22,16 +22,20 @@
 
 1. [比赛与电控组简介](about.md) — 了解比赛以及技术定位
 2. [如何寻找资源](resources.md) — 学会自己找资料，这是受用最久的一课
-3. [如何配置软件环境](env-setup.md) — 装好工具，扫清第一道坎
+3. [如何配置软件环境](env-setup.md) — 了解软件下载与安装的基础方法，扫清第一道坎
 
 #### 环境配置快速导航
 
+安装前请先阅读[软件作用与配置顺序](software-setup-order.md)。Dev-C++、Git、STM32CubeMX、J-Link 和 Ozone 均需配置；CLion 与 Keil 选择其中一种作为主要嵌入式开发环境，推荐使用 CLion。
+
+以下是各软件的开发环境配置图文详解：
+
 - [Dev-C++ 安装与使用](install-devcpp.md) — 适合刚开始学习 C/C++，安装后即可编译运行程序
-- [Keil 5 安装](install-keil.md) — STM32 入门阶段使用的集成开发环境
-- [STM32CubeMX 安装](install-cubemx.md) — 用于配置 STM32 外设并生成初始化工程
 - [Git 安装与初始配置](install-git.md) — 用于管理代码版本、获取和同步工程
+- [STM32CubeMX 安装](install-cubemx.md) — 用于配置 STM32 外设并生成初始化工程
+- [CLion 的 STM32 开发环境配置](install-clion.md) — 队内首选的嵌入式开发环境
+- [Keil 5 安装](install-keil.md) — 可用于传统 STM32 开发流程和已有 Keil 工程
 - [J-Link 与 Ozone 安装](install-jlink-ozone.md) — 用于程序下载和调试（页面待完善）
-- [CLion 的 STM32 开发环境配置](install-clion.md) — 队内项目开发使用，建议熟悉 Keil 后再配置
 
 **第 1 步：C 语言**
 
@@ -79,7 +83,8 @@
 
 > 关于此教程，有不懂的或者修改建议，请联系：
 >
-> 24-自动化-肖芳星 QQ：1345105561
-> 24-自动化-陈俊龙 QQ：1586168607
+> 24-自动化-肖芳星 QQ：1345105561<br>
+> 24-自动化-陈俊龙 QQ：1586168607<br>
+> 23-电信工-刘昱辰 QQ：2627808455
 >
 > 同时，欢迎在交流群里积极发言！

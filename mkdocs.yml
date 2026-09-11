@@ -51,14 +51,16 @@ nav:
   - 入门认知:
       - 比赛与电控组简介: about.md
       - 如何寻找资源: resources.md
-      - 如何配置软件环境: env-setup.md
-      - 开发环境配置:
-          - Dev-Cpp: install-devcpp.md 
-          - Keil: install-keil.md
-          - STM32Cubemx: install-cubemx.md 
-          - Git: install-git.md
-          - Jlink+Ozone: install-jlink-ozone.md
-          - CLion: install-clion.md
+      - 如何配置软件环境:
+          - 软件下载与安装基础: env-setup.md
+          - 软件作用与配置顺序: software-setup-order.md
+          - 开发环境配置图文详解:
+              - Dev-C++: install-devcpp.md
+              - Git: install-git.md
+              - STM32CubeMX: install-cubemx.md
+              - CLion: install-clion.md
+              - Keil: install-keil.md
+              - J-Link + Ozone: install-jlink-ozone.md
   - 编程基础:
       - C 语言学习: c-lang.md
       - Git 与工程化: git.md
