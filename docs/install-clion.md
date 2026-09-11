@@ -6,6 +6,10 @@
 
 在队内项目开发中，我们主要使用 **CLion**。与 Keil 相比，CLion 更适合代码规模较大、需要多人协作和长期维护的工程。下面将介绍 CLion 及其前置工具的安装与配置流程。
 
+## 准备安装文件
+
+安装所需的 `software` 压缩包请优先从 QQ 群文件中下载。若 QQ 群下载不便，也可通过[百度网盘（备用下载渠道）](https://pan.baidu.com/s/1PLoIJmeH33LL_dX_05VRsg?pwd=vc2z)下载，提取码：`vc2z`。下载完成后，请先解压压缩包，再按照下文步骤进行安装。
+
 ## 安装 STM32CubeCLT（前置步骤）
 
 1. 打开 `software` 文件夹，双击运行 `stm32cubeclt_1.22.0-Win-x86_64.exe` 安装程序。

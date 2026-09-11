@@ -1,5 +1,9 @@
 # 安装 STM32CubeMX
 
+## 准备安装文件
+
+安装所需的 `software` 压缩包请优先从 QQ 群文件中下载。若 QQ 群下载不便，也可通过[百度网盘（备用下载渠道）](https://pan.baidu.com/s/1PLoIJmeH33LL_dX_05VRsg?pwd=vc2z)下载，提取码：`vc2z`。下载并解压后，打开其中的 `cubemx` 文件夹。
+
 ## 安装 Java 环境（前置步骤）
 
 1. 打开 `cubemx` 文件夹，双击运行 `jre-8u191-windows-x64` 安装程序。

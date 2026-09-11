@@ -4,7 +4,9 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
 ## 下载 Git
 
-课程提供的“software”压缩包中已经包含 Git 安装包，可以解压后直接使用。如需下载最新版本，请按照下面的步骤前往 Git 官网下载。
+课程提供的 `software` 压缩包中已经包含 Git 安装包，请优先从 QQ 群文件中下载。若 QQ 群下载不便，也可通过[百度网盘（备用下载渠道）](https://pan.baidu.com/s/1PLoIJmeH33LL_dX_05VRsg?pwd=vc2z)下载，提取码：`vc2z`。下载并解压后即可使用其中的安装包。
+
+如需下载最新版本，请按照下面的步骤前往 Git 官网下载。
 
 1. 打开 [Git 官网](https://git-scm.com/)，点击页面中的 **Download for Windows**。
 

@@ -7,7 +7,9 @@ Dev C++ 内嵌 GCC 的 Windows 版本 MinGW，支持 C++98 与 C++11 标准。�
 
 ## 下载 Dev C++
 
-Dev C++的安装包已在压缩包“software”中提供，如需下载最新版，可至[官网地址](https://www.dev-cpp.com/)
+Dev C++ 的安装包已包含在课程提供的 `software` 压缩包中，请优先从 QQ 群文件中下载。若 QQ 群下载不便，也可通过[百度网盘（备用下载渠道）](https://pan.baidu.com/s/1PLoIJmeH33LL_dX_05VRsg?pwd=vc2z)下载，提取码：`vc2z`。
+
+如需下载最新版本，可前往 [Dev C++ 官网](https://www.dev-cpp.com/)。
 
 ## 安装 Dev C++
 
@@ -160,7 +162,6 @@ int main()
 ![编译运行结果](assets/devcpp/19.jpg)
 
 现在可以将 `hello.exe` 分享给朋友，告诉他们这是你编写的第一个 C 语言程序。
-
 
 
 
