@@ -2,15 +2,15 @@
 
 单片机开发的完整工具链由三部分组成：**代码编写**（编辑器/IDE + 编译工具链）、**烧录**（把固件下载进芯片）、**调试**（调试器 + 调试上位机）。方案没有绝对的优劣，本章给出当前主流的组合与适配关系。
 
-> **省流：想要一步到位衔接对内：Clion+ozone+Jlink，前期学习推荐使用vscode+keil+jlink/stlink，资料齐全**
+> **省流：推荐使用 CLion + J-Link + Ozone。CLion 负责编写和构建代码，J-Link 负责连接与下载，Ozone 负责调试。**
 
 ## 代码编写
 
-### 方案一：==CLion==（队内现用）
+### 推荐方案：==CLion==
 
 - [CLion](https://www.jetbrains.com/clion/) — 对 CMake 工程支持最好；STM32CubeMX 可直接生成 CMake 工程，配合 `arm-none-eabi-gcc` 工具链编译。JetBrains 学生认证免费。
-- 适合追求现代开发体验的人：代码跳转、重构、Git 集成体验都是三者中最好的。
-- 由于cmake还需要配置cmake，arm-none-eabi-gcc的工具链，**前期学习较麻烦建议先用方案二**
+- 具有良好的代码跳转、重构、CMake 和 Git 集成体验，适合从入门学习延伸到队内项目协作。
+- 首次使用需配置 CMake 和 `arm-none-eabi-gcc` 工具链，按照站内 [CLion 安装与配置教程](install-clion.md) 完成一次配置后即可持续使用。
 
 [爽！手把手教你用CLion开发STM32【大人，时代变啦！！！】](https://www.bilibili.com/video/BV1pnjizYEAk?vd_source=0ec807ca37217dda15dcd3c1863ba0c9)
 
@@ -18,12 +18,12 @@
 
 ![image-20260901150140838](assets/image-20260901150140838.png){: style="zoom:50%" }
 
-### 方案二：==VSCode + Keil==（初学建议使用）
+### 备选方案：==VS Code + Keil==
 
 > 由于keil的界面过于远古，代码编辑体验也不如现代的IDE好，所以keil不建议拿来编辑代码（虽然许多教程都这么做的）
 
-- **Keil 本身只当"编译烧录器"，代码编辑交给 VSCode**。
-- 相比于方案一，推荐前期学习方案二的理由是只需安装少量插件，同时不错过keil的使用练习（即使keil古老，编辑体验不现代，但其支持的芯片范围最广，编译烧录相对与方案一要简单的多，资源也较丰富，适合前期使用）
+- **Keil 本身只当“编译烧录器”，代码编辑交给 VS Code**。
+- 该方案资料较多、配置相对直接，可用于学习依赖 Keil 的传统教程，或维护现有 Keil 工程。
 
 [2026年了，这才是嵌入式开发环境的最优解！！](https://www.bilibili.com/video/BV1vED9BqEiJ?vd_source=0ec807ca37217dda15dcd3c1863ba0c9)
 
@@ -31,7 +31,7 @@
 
 ![image-20260901150334824](assets/image-20260901150334824.png){: style="zoom:50%" }
 
-### 方案三：Keil MDK5
+### 传统方案：Keil MDK5
 
 - [Keil MDK5](https://www.keil.com/mdk5/) — 传统单片机 IDE，编写、编译、烧录、调试一体，网上教程与历史工程模板最多。
 
@@ -39,7 +39,7 @@
 
 ## 调试方式
 
-- **Keil 在线调试** — 断点、单步、观察变量与外设寄存器视图，与 Keil 工程无缝衔接，入门最省事。
+- **Keil 在线调试** — 断点、单步、观察变量与外设寄存器视图，与现有 Keil 工程无缝衔接。
 - ==**[Ozone](https://www.segger.com/products/development-tools/ozone-j-link-debugger)**== — Segger 出品的独立调试上位机，免费使用，支持实时变量监视、波形、指令级分析，配合 **J-Link** 体验最佳；**队内现用方案**。
 - VSCode + Cortex-Debug 插件（基于 OpenOCD/pyOCD）。
 
@@ -76,9 +76,3 @@ Segger 出品（[产品页](https://www.segger.com/products/debug-probes/j-link)
 
 > 本质上，**任何调试器的目的都是把编译的elf/axf二进制文件，写进开发板的芯片内部**，这个概念必须理解！！后续烧录遇到的问题，都排查：
 > 硬件接线、二进制文件是否选择正确、是否正确编译、芯片型号是否选对、程序起始位置是否选对
-
-## 选型建议
-
-- ==新生入门：VScode+Keil 或 CLion 二选一，先把"编写 → 编译 → 烧录 → 点灯"跑通==
-- 队内统一方向：**CLion 编写 + Ozone 调试 + J-Link**
-

@@ -10,9 +10,10 @@
 ## 环境配置
 
 - [**STM32CubeMX**](https://www.st.com/en/development-tools/stm32cubemx.html) — ST 官方图形化配置工具：点选外设、生成 HAL 库初始化工程，官方例程也基于此。
-- [**Keil MDK5**](https://www.keil.com/mdk5/) — 传统单片机 IDE，配套教程资料最多。
+- [**CLion**](install-clion.md) — 用于编写、构建和管理 STM32 工程。
+- [**Keil MDK5**](install-keil.md) — 传统单片机 IDE，保留用于课程要求、传统教程或现有 Keil 工程。
 
-keil的软件资源下载可见"如何配置软件环境"这一节内容
+请先阅读[开发方式](dev-workflow.md)了解工具链组合，再按照 [CLion 安装与配置教程](install-clion.md)完成推荐开发环境的配置。
 
 ## 视频教程
 
