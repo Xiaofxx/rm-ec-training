@@ -118,9 +118,19 @@
 
     ![配置并生成 STM32CubeMX 工程](assets/clion/25.png)
 
-    > 注：如果列表中没有 **CMake** 选项，可返回 STM32CubeMX 主页面，点击 **CHECK FOR UPDATES** 检查并安装更新。若当前已是最新版本，该选项可能显示为灰色。
-
-    ![检查 STM32CubeMX 更新](assets/clion/26.png)
+    > **提示：** 如果 **Toolchain/IDE** 列表中没有 **CMake** 选项，请返回 STM32CubeMX 主页面，点击 **CHECK FOR UPDATES** 检查并安装更新。若 STM32CubeMX 已是最新版本，该按钮可能显示为灰色。
+    >
+    > ![检查 STM32CubeMX 更新](assets/clion/26.png)
+    >
+    > 安装更新需要管理员权限。请先退出 STM32CubeMX，再右击其图标并选择 **以管理员身份运行**，然后重新检查并安装更新。
+    >
+    > ![以管理员身份运行 STM32CubeMX](assets/clion/37.png)
+    >
+    > 如果未以管理员身份运行，更新项前的复选框可能无法勾选，导致无法安装更新，如下图所示。
+    >
+    > ![因缺少管理员权限而无法选择更新](assets/clion/36.png)
+    >
+    > 获得管理员权限后，勾选需要安装的更新项并点击 **Install**。等待更新包下载完成，再按照提示重启 STM32CubeMX，即可完成更新。
 
 6. 项目生成完成后返回 CLion，将刚才设置的项目保存路径填写到窗口上方的 **位置** 栏中，然后点击 **继续**。
 
