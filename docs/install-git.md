@@ -70,7 +70,7 @@ Git 是一个分布式版本控制工具，可以记录代码的修改历史，�
 
     ![在工程目录中打开 Git Bash](assets/git/06-open-git-bash-here.png)
 
-2. 在代码托管网站上打开需要下载的仓库，点击 **代码** 或 **Clone**，选择 **HTTPS**，然后复制仓库网址。
+2. 在代码托管网站(如github，gitee)上打开需要下载的仓库(下面仅做示例，可以随意找一个仓库看看能否克隆)，点击 **代码** 或 **Clone**，选择 **HTTPS**，然后复制仓库网址。
 
     ![复制仓库的 HTTPS 克隆网址](assets/git/07-copy-clone-url.png)
 
