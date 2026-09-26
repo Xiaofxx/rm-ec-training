@@ -82,5 +82,8 @@ nav:
   - 综合实战:
       - 综合项目（电赛/校内赛小车）: project.md
       - 校内赛电控指导: school-contest.md
+  - 培训教程:
+      - 培训链接: training-links.md
+      - 第一次培训: training-01.md
 
 copyright: Copyright &copy; 2026 苍穹战队电控组
