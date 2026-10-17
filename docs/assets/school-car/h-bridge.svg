@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="570" viewBox="0 0 460 570" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">H桥直流电机驱动原理</title><desc id="desc">四个开关围绕电机组成H桥。S1和S4导通与S2和S3导通产生相反的电流方向。同一侧上下开关禁止同时导通。</desc>
+<rect width="460" height="570" rx="12" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172554">
+<text x="230" y="36" font-size="23" font-weight="700">H桥：切换电机两端极性</text><text x="230" y="76" font-size="19">VM · 电机电源正极</text>
+<g stroke="#475569" stroke-width="3" fill="none"><path d="M110 130V98H350V130M110 190V310M350 190V310M110 370V402H350V370M110 250H194M266 250H350"/></g>
+<g fill="#dbeafe" stroke="#2563eb" stroke-width="2"><rect x="75" y="130" width="70" height="60" rx="8"/><rect x="315" y="310" width="70" height="60" rx="8"/></g>
+<g fill="#eef2ff" stroke="#6366f1" stroke-width="2"><rect x="315" y="130" width="70" height="60" rx="8"/><rect x="75" y="310" width="70" height="60" rx="8"/></g>
+<g font-size="22"><text x="110" y="168">S1</text><text x="350" y="168">S2</text><text x="110" y="348">S3</text><text x="350" y="348">S4</text></g>
+<circle cx="230" cy="250" r="36" fill="#ecfdf5" stroke="#059669" stroke-width="2"/><text x="230" y="258" font-size="24">M</text>
+<text x="230" y="308" font-size="17">两线直流电机</text><text x="230" y="431" font-size="19">GND · 电源负极</text>
+<text x="230" y="472" font-size="18">S1 + S4：一个方向</text><text x="230" y="502" font-size="18">S2 + S3：相反方向</text><text x="230" y="543" font-size="17" fill="#b45309">S1与S3、S2与S4禁止同时导通</text>
+</g></svg>

@@ -79,6 +79,8 @@ nav:
           - Ozone 调试方法: debug-ozone.md
           - Keil 调试: debug-keil.md
           - 其他调试工具: debug-tools.md
+  - 校内赛设计指南:
+      - 小车电控设计入门: school-car-design.md
   - 综合实战:
       - 综合项目（电赛/校内赛小车）: project.md
       - 校内赛电控指导: school-contest.md

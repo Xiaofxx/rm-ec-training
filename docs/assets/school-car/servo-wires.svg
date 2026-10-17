@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="780" viewBox="0 0 560 780" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">普通三线舵机引线辨认</title><desc id="desc">示意从能看到导线进入插壳的一侧观察，三根线按图排列。棕或黑为地，红为电源正极，橙或白为PWM信号。插头翻面左右会互换，必须以实际说明核对。</desc>
+<rect width="560" height="780" rx="12" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172554">
+<text x="280" y="36" font-size="23" font-weight="700">普通三线舵机：按导线辨认功能</text>
+<text x="280" y="68" font-size="17">观察导线进入插壳的一侧（不是插孔正面）</text>
+<text x="280" y="112" font-size="20" font-weight="700">常见配色一：棕 / 红 / 橙</text>
+<rect x="90" y="135" width="380" height="68" rx="9" fill="#334155"/>
+<g fill="#0f172a"><rect x="132" y="160" width="36" height="43"/><rect x="262" y="160" width="36" height="43"/><rect x="392" y="160" width="36" height="43"/></g>
+<g fill="none" stroke-width="14"><path d="M150 183V265" stroke="#7c4426"/><path d="M280 183V265" stroke="#dc2626"/><path d="M410 183V265" stroke="#f97316"/></g>
+<g font-size="19" font-weight="700"><text x="150" y="299">棕色</text><text x="280" y="299">红色</text><text x="410" y="299">橙色</text></g>
+<g font-size="18"><text x="150" y="328">GND / −</text><text x="280" y="328">电源正极 / +</text><text x="410" y="328">PWM / S</text></g>
+<text x="280" y="385" font-size="20" font-weight="700">常见配色二：黑 / 红 / 白</text>
+<rect x="90" y="408" width="380" height="68" rx="9" fill="#334155"/>
+<g fill="#0f172a"><rect x="132" y="433" width="36" height="43"/><rect x="262" y="433" width="36" height="43"/><rect x="392" y="433" width="36" height="43"/></g>
+<g fill="none" stroke-width="14"><path d="M150 456V538" stroke="#111827"/><path d="M280 456V538" stroke="#dc2626"/><path d="M410 456V538" stroke="#94a3b8"/></g>
+<path d="M410 456V538" stroke="#ffffff" stroke-width="10"/>
+<g font-size="19" font-weight="700"><text x="150" y="572">黑色</text><text x="280" y="572">红色</text><text x="410" y="572">白色</text></g>
+<g font-size="18"><text x="150" y="601">GND / −</text><text x="280" y="601">电源正极 / +</text><text x="410" y="601">PWM / S</text></g>
+<rect x="25" y="638" width="510" height="116" rx="8" fill="#fff7ed" stroke="#ea580c"/>
+<text x="280" y="669" font-size="19" font-weight="700" fill="#b91c1c">翻面后左右会互换，不要死记左右顺序</text>
+<text x="280" y="699" font-size="17">红线常在中间，但仍需核对型号与接口标识</text>
+<text x="280" y="729" font-size="17">实际配色可能不同，不能靠试插通电辨认</text>
+</g></svg>

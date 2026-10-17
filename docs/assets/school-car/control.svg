@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="830" viewBox="0 0 460 830" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">小车遥控与执行信号拓扑</title><desc id="desc">手机经蓝牙模块，或手持遥控器经无线接收器，将控制数据通过UART送到STM32。主控通过H桥控制直流电机，通过信号脉冲控制舵机，限位与编码器可反馈到主控。</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#475569"/></marker></defs>
+<rect width="460" height="830" rx="12" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#172554">
+<text x="230" y="36" font-size="23" font-weight="700">遥控 → 主控 → 执行器</text><text x="230" y="66" font-size="17" fill="#475569">选择一种遥控链路即可起步</text>
+<g fill="#dbeafe" stroke="#2563eb"><rect x="25" y="92" width="185" height="54" rx="8"/><rect x="250" y="92" width="185" height="54" rx="8"/><rect x="25" y="207" width="185" height="68" rx="8"/><rect x="250" y="207" width="185" height="68" rx="8"/></g>
+<g font-size="19"><text x="117" y="126">手机应用</text><text x="342" y="126">手持遥控器</text><text x="117" y="235">蓝牙模块</text><text x="117" y="259" font-size="16">手机协议需匹配</text><text x="342" y="235">配套无线接收器</text><text x="342" y="259" font-size="16">确认串口输出协议</text></g>
+<g fill="none" stroke="#475569" stroke-width="2" marker-end="url(#a)"><path d="M117 146V201"/><path d="M342 146V201"/><path d="M117 275V355"/><path d="M342 275V355"/></g>
+<g font-size="16" fill="#475569"><text x="164" y="182">蓝牙</text><text x="385" y="182">无线</text><text x="117" y="312">UART 数据</text><text x="342" y="312">UART 数据</text></g>
+<rect x="50" y="360" width="360" height="95" rx="10" fill="#eef2ff" stroke="#6366f1"/><text x="230" y="392" font-size="21" font-weight="700">STM32F103C8T6</text><text x="230" y="421" font-size="17">解析指令 · 计算动作 · 处理失联</text><text x="230" y="443" font-size="15">核心板5V输入，GPIO按3.3V设计</text>
+<g fill="none" stroke="#475569" stroke-width="2" marker-end="url(#a)"><path d="M117 455V535"/><path d="M342 455V535"/><path d="M117 600V654"/></g>
+<text x="117" y="493" font-size="16">方向 + PWM</text><text x="342" y="493" font-size="16">舵机控制脉冲</text>
+<g fill="#ecfdf5" stroke="#059669"><rect x="25" y="540" width="185" height="60" rx="8"/><rect x="250" y="540" width="185" height="60" rx="8"/><rect x="25" y="660" width="185" height="60" rx="8"/></g>
+<g font-size="19"><text x="117" y="577">H桥驱动器</text><text x="342" y="577">舵机</text><text x="117" y="697">直流减速电机</text></g>
+<text x="342" y="637" font-size="16">内部已有驱动</text><text x="342" y="662" font-size="16">无需外置H桥</text>
+<rect x="25" y="751" width="410" height="54" rx="8" fill="#fff7ed" stroke="#ea580c"/><text x="230" y="773" font-size="16">编码器 / 限位 → 主控反馈输入</text><text x="230" y="795" font-size="15">本图只画信号；动力供电见供电图</text>
+</g></svg>

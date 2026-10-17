@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" style="max-width:100%;height:auto" role="img" aria-labelledby="title desc">
+<title id="title">直流电机接线：主控到驱动，再到电机</title>
+<desc id="desc">主控在左侧，H桥驱动居中，电机在右侧。电源正极从上方接驱动VM，编码器A/B从下方返回主控，下方列出必须共地的四个端子。</desc>
+<defs><marker id="blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker><marker id="purple" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#7c3aed"/></marker></defs>
+<rect width="1000" height="760" rx="14" fill="#f8fafc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#172554">
+<text x="500" y="40" text-anchor="middle" font-size="28" font-weight="700">直流电机接线：主控 → 驱动 → 电机</text>
+<text x="500" y="72" text-anchor="middle" font-size="18" fill="#475569">先看中间一行，再接上方电源和下方公共地</text>
+<rect x="390" y="104" width="230" height="80" rx="10" fill="#fff1f2" stroke="#dc2626" stroke-width="2"/>
+<text x="505" y="136" text-anchor="middle" font-size="23" font-weight="700">电机电源</text><text x="445" y="168" text-anchor="middle" font-size="18">正极 +</text><text x="565" y="168" text-anchor="middle" font-size="18">负极 −</text>
+<path d="M445 184V270" stroke="#dc2626" stroke-width="4"/><text x="460" y="230" font-size="18" fill="#b91c1c">接VM</text>
+<path d="M565 184V208H978V665H930" stroke="#475569" stroke-width="3" fill="none"/>
+<rect x="30" y="270" width="220" height="180" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="140" y="311" text-anchor="middle" font-size="25" font-weight="700">STM32主控</text><text x="140" y="350" text-anchor="middle" font-size="19">方向 / PWM输出</text><text x="140" y="429" text-anchor="middle" font-size="19">编码器计数输入</text>
+<rect x="400" y="270" width="220" height="180" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+<text x="510" y="312" text-anchor="middle" font-size="24" font-weight="700">H桥驱动模块</text><text x="510" y="350" text-anchor="middle" font-size="19">控制输入 → 功率输出</text><text x="510" y="393" text-anchor="middle" font-size="18">VM接电机电源正极</text><text x="510" y="427" text-anchor="middle" font-size="17">逻辑电源、使能按说明接</text>
+<path d="M250 338H397" stroke="#2563eb" stroke-width="4" marker-end="url(#blue)"/><text x="325" y="307" text-anchor="middle" font-size="18" fill="#1d4ed8">方向 / PWM</text>
+<rect x="790" y="270" width="170" height="125" rx="12" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="875" y="315" text-anchor="middle" font-size="23" font-weight="700">直流减速电机</text><text x="875" y="351" text-anchor="middle" font-size="18">两根动力线</text><text x="875" y="378" text-anchor="middle" font-size="16">不直接接主控引脚</text>
+<path d="M620 326H790M620 359H790" stroke="#ea580c" stroke-width="4"/>
+<text x="704" y="310" text-anchor="middle" font-size="18" fill="#9a3412">OUT1</text><text x="704" y="389" text-anchor="middle" font-size="18" fill="#9a3412">OUT2</text>
+<path d="M875 395V430" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="790" y="430" width="170" height="90" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="875" y="462" text-anchor="middle" font-size="21" font-weight="700">编码器（可选）</text><text x="875" y="493" text-anchor="middle" font-size="18">A / B反馈输出</text>
+<path d="M790 480H735V550H140V452" stroke="#7c3aed" stroke-width="3" fill="none" marker-end="url(#purple)"/>
+<rect x="305" y="531" width="310" height="36" rx="6" fill="#f8fafc"/><text x="460" y="555" text-anchor="middle" font-size="19" fill="#7c3aed">编码器A/B → 主控计数输入</text>
+<rect x="30" y="593" width="930" height="102" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="495" y="622" text-anchor="middle" font-size="20" font-weight="700">以下四处全部共地（GND）</text>
+<g text-anchor="middle" font-size="18"><text x="145" y="651">电源负极</text><text x="375" y="651">驱动GND</text><text x="605" y="651">主控GND</text><text x="835" y="651">编码器GND</text></g>
+<path d="M65 665H930M145 655V665M375 655V665M605 655V665M835 655V665" stroke="#475569" stroke-width="3" fill="none"/>
+<g fill="#475569"><circle cx="145" cy="665" r="4"/><circle cx="375" cy="665" r="4"/><circle cx="605" cy="665" r="4"/><circle cx="835" cy="665" r="4"/></g>
+<text x="500" y="724" text-anchor="middle" font-size="18">编码器VCC另接兼容电源；A/B信号电平须匹配STM32</text><text x="500" y="750" text-anchor="middle" font-size="16" fill="#475569">主控自身供电省略；端口位置仅为示意，接线以模块标识为准。点击图片可单独查看。</text>
+</g></svg>
