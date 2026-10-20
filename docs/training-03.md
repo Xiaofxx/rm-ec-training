@@ -116,7 +116,7 @@ sumArray(arr, 3)
 
 ![image-20261016172132704](assets/training/t3/q2-original.png)
 
-<img src="/assets/training/t3/q2-extra.png" alt="image-20261017154402381" />
+![image-20261017154402381](assets/training/t3/q2-extra.png)
 
 #### 要拆成两个函数
 
@@ -265,7 +265,7 @@ for (second = (Color)(first + 1); second <= White; second = (Color)(second + 1))
 
 这里推荐可以使用Clion/Vscode内部自带的git工具，版本流程很明显，代替终端敲命令/合并分支解决冲突很方便
 
-<img src="/assets/training/t3/p5-extra-b.png" alt="image-20261019162014389" />
+![image-20261019162014389](assets/training/t3/p5-extra-b.png)
 
 ---
 
@@ -273,7 +273,7 @@ for (second = (Color)(first + 1); second <= White; second = (Color)(second + 1))
 
 ### 5.1 学习路线
 
-<img src="/assets/training/t3/roadmap.png" alt="STM32 学习路线图" />
+![STM32 学习路线图](assets/training/t3/roadmap.png){: width="70%" }
 
 正确姿势是**以项目为驱动**
 
